@@ -1,0 +1,101 @@
+fileFormatVersion: 2
+guid: f2592f3d2dda6e7418d32917d732c537
+timeCreated: 1464635519
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spritesheet_tilesBlue_0
+    21300002: spritesheet_tilesBlue_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: spritesheet_tilesBlue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1162
+        width: 209
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 26, y: 28, z: 27, w: 26}
+      outline:
+      - - {x: 104.5, y: 52}
+        - {x: 101.5, y: 55}
+        - {x: -101.5, y: 55}
+        - {x: -104.5, y: 52}
+        - {x: -104.5, y: -51}
+        - {x: -101.5, y: -55}
+        - {x: 99.5, y: -55}
+        - {x: 100.5, y: -54}
+        - {x: 103.5, y: -50}
+        - {x: 104.5, y: -50}
+    - name: spritesheet_tilesBlue_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 833
+        width: 209
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 26, y: 27, z: 27, w: 27}
+      outline:
+      - - {x: 103.5, y: 51}
+        - {x: 99.5, y: 55}
+        - {x: -101.5, y: 55}
+        - {x: -104.5, y: 52}
+        - {x: -104.5, y: -52}
+        - {x: -101.5, y: -55}
+        - {x: 100.5, y: -55}
+        - {x: 100.5, y: -54}
+        - {x: 104.5, y: -51}
+        - {x: 104.5, y: 51}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

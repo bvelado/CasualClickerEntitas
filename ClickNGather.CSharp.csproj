@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9028B196-0A5C-C7DF-2706-4F4C17F47C22}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.3.0f4</UnityVersion>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_0;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_0;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Libs\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets\Libs\DOTween\DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\Libs\DOTween\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets\Libs\DOTween\DOTween46.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\BuyNewBuilding.cs" />
+    <Compile Include="Assets\GenerateGoldInput.cs" />
+    <Compile Include="Assets\Libs\Entitas\CodeGenerator\Attributes\CustomComponentNameAttribute.cs" />
+    <Compile Include="Assets\Libs\Entitas\CodeGenerator\Attributes\CustomPrefixAttribute.cs" />
+    <Compile Include="Assets\Libs\Entitas\CodeGenerator\Attributes\DontGenerateAttribute.cs" />
+    <Compile Include="Assets\Libs\Entitas\CodeGenerator\Attributes\PoolAttribute.cs" />
+    <Compile Include="Assets\Libs\Entitas\CodeGenerator\Attributes\SingleEntityAttribute.cs" />
+    <Compile Include="Assets\Libs\Entitas\EntitasException.cs" />
+    <Compile Include="Assets\Libs\Entitas\Entity.cs" />
+    <Compile Include="Assets\Libs\Entitas\Extensions\CollectionExtension.cs" />
+    <Compile Include="Assets\Libs\Entitas\Extensions\GroupExtension.cs" />
+    <Compile Include="Assets\Libs\Entitas\Extensions\IMatcherExtension.cs" />
+    <Compile Include="Assets\Libs\Entitas\Extensions\PoolExtension.cs" />
+    <Compile Include="Assets\Libs\Entitas\Extensions\TypeExtension.cs" />
+    <Compile Include="Assets\Libs\Entitas\Group.cs" />
+    <Compile Include="Assets\Libs\Entitas\GroupObserver.cs" />
+    <Compile Include="Assets\Libs\Entitas\Interfaces\IComponent.cs" />
+    <Compile Include="Assets\Libs\Entitas\Interfaces\IExecuteSystem.cs" />
+    <Compile Include="Assets\Libs\Entitas\Interfaces\IInitializeSystem.cs" />
+    <Compile Include="Assets\Libs\Entitas\Interfaces\IMatcher.cs" />
+    <Compile Include="Assets\Libs\Entitas\Interfaces\IReactiveSystem.cs" />
+    <Compile Include="Assets\Libs\Entitas\Interfaces\ISystem.cs" />
+    <Compile Include="Assets\Libs\Entitas\Matcher\Matcher.cs" />
+    <Compile Include="Assets\Libs\Entitas\Matcher\MatcherEquals.cs" />
+    <Compile Include="Assets\Libs\Entitas\Matcher\MatcherInterfaces.cs" />
+    <Compile Include="Assets\Libs\Entitas\Matcher\MatcherStatic.cs" />
+    <Compile Include="Assets\Libs\Entitas\Matcher\MatcherToString.cs" />
+    <Compile Include="Assets\Libs\Entitas\Matcher\TriggerOnEvent.cs" />
+    <Compile Include="Assets\Libs\Entitas\Pool.cs" />
+    <Compile Include="Assets\Libs\Entitas\ReactiveSystem.cs" />
+    <Compile Include="Assets\Libs\Entitas\Serialization\Blueprints\Blueprint.cs" />
+    <Compile Include="Assets\Libs\Entitas\Serialization\Blueprints\BlueprintEntityExtension.cs" />
+    <Compile Include="Assets\Libs\Entitas\Serialization\Blueprints\ComponentBlueprint.cs" />
+    <Compile Include="Assets\Libs\Entitas\Serialization\Blueprints\SerializableMember.cs" />
+    <Compile Include="Assets\Libs\Entitas\Serialization\PublicMemberInfo.cs" />
+    <Compile Include="Assets\Libs\Entitas\Serialization\TypeSerializationExtension.cs" />
+    <Compile Include="Assets\Libs\Entitas\Systems.cs" />
+    <Compile Include="Assets\Libs\Entitas\Unity\Properties.cs" />
+    <Compile Include="Assets\Libs\Entitas\Unity\Serialization\Blueprints\BinaryBlueprint.cs" />
+    <Compile Include="Assets\Libs\Entitas\Unity\Serialization\Blueprints\Blueprints.cs" />
+    <Compile Include="Assets\Libs\Entitas\Unity\VisualDebugging\DebugSystems\DebugSystems.cs" />
+    <Compile Include="Assets\Libs\Entitas\Unity\VisualDebugging\DebugSystems\DebugSystemsBehaviour.cs" />
+    <Compile Include="Assets\Libs\Entitas\Unity\VisualDebugging\DebugSystems\Feature.cs" />
+    <Compile Include="Assets\Libs\Entitas\Unity\VisualDebugging\DebugSystems\SystemInfo.cs" />
+    <Compile Include="Assets\Libs\Entitas\Unity\VisualDebugging\Entity\EntityBehaviour.cs" />
+    <Compile Include="Assets\Libs\Entitas\Unity\VisualDebugging\GameObjectDestroyExtension.cs" />
+    <Compile Include="Assets\Libs\Entitas\Unity\VisualDebugging\PoolObserver\PoolObserver.cs" />
+    <Compile Include="Assets\Libs\Entitas\Unity\VisualDebugging\PoolObserver\PoolObserverBehaviour.cs" />
+    <Compile Include="Assets\Scripts\EntityLink.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\ViewController.cs" />
+    <Compile Include="Assets\Scripts\ViewControllers\BuildingViewController.cs" />
+    <Compile Include="Assets\Scripts\ViewControllers\PlayerGoldViewController.cs" />
+    <Compile Include="Assets\Sources\Extensions\CorePoolExtension.cs" />
+    <Compile Include="Assets\Sources\Features\Components.cs" />
+    <Compile Include="Assets\Sources\Features\InputSystems.cs" />
+    <Compile Include="Assets\Sources\Features\LogicSystems.cs" />
+    <Compile Include="Assets\Sources\Features\ViewSystems.cs" />
+    <Compile Include="Assets\Sources\Generated\BuidlingComponentGeneratedExtension.cs" />
+    <Compile Include="Assets\Sources\Generated\BuyBuildingInputComponentGeneratedExtension.cs" />
+    <Compile Include="Assets\Sources\Generated\ComponentIds.cs" />
+    <Compile Include="Assets\Sources\Generated\GenerateGoldInputComponentGeneratedExtension.cs" />
+    <Compile Include="Assets\Sources\Generated\GeneratorComponentGeneratedExtension.cs" />
+    <Compile Include="Assets\Sources\Generated\MoneyComponentGeneratedExtension.cs" />
+    <Compile Include="Assets\Sources\Generated\PlayerComponentGeneratedExtension.cs" />
+    <Compile Include="Assets\Sources\Generated\Pools.cs" />
+    <Compile Include="Assets\Sources\Generated\TickComponentGeneratedExtension.cs" />
+    <Compile Include="Assets\Sources\Generated\ViewComponentGeneratedExtension.cs" />
+    <Compile Include="Assets\Sources\Generated\WaitComponentGeneratedExtension.cs" />
+    <Compile Include="Assets\UIContainer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Libs\DOTween\DOTween.XML" />
+    <None Include="Assets\Libs\DOTween\DOTween43.xml" />
+    <None Include="Assets\Libs\DOTween\DOTween46.xml" />
+    <None Include="Assets\Libs\DOTween\DOTween50.xml" />
+    <None Include="Assets\Libs\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\Libs\DOTween\readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

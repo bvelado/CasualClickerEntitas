@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickNGather.CSharp", "ClickNGather.CSharp.csproj", "{9028B196-0A5C-C7DF-2706-4F4C17F47C22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickNGather.CSharp.Editor", "ClickNGather.CSharp.Editor.csproj", "{8D9FA131-B18F-8374-480F-FED8D38AE78D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9028B196-0A5C-C7DF-2706-4F4C17F47C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9028B196-0A5C-C7DF-2706-4F4C17F47C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9028B196-0A5C-C7DF-2706-4F4C17F47C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9028B196-0A5C-C7DF-2706-4F4C17F47C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9FA131-B18F-8374-480F-FED8D38AE78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9FA131-B18F-8374-480F-FED8D38AE78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9FA131-B18F-8374-480F-FED8D38AE78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9FA131-B18F-8374-480F-FED8D38AE78D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

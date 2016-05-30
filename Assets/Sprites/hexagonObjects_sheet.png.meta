@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: aa6d63a17bc92874f9b1470e6d70cf92
+timeCreated: 1464637787
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hexagonObjects_sheet_0
+    21300002: hexagonObjects_sheet_1
+    21300004: hexagonObjects_sheet_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: hexagonObjects_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 54
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: -18}
+        - {x: -7.5, y: -42}
+        - {x: 22.5, y: -42}
+        - {x: 46.5, y: -24}
+        - {x: 46.5, y: 5}
+        - {x: 28.5, y: 31}
+        - {x: 17.5, y: 42}
+        - {x: -23.5, y: 42}
+        - {x: -46.5, y: 29}
+    - name: hexagonObjects_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 418
+        width: 86
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 47}
+        - {x: -43, y: 15}
+        - {x: -43, y: -26}
+        - {x: -1, y: -47}
+        - {x: 33, y: -47}
+        - {x: 43, y: 0}
+        - {x: 43, y: 37}
+        - {x: 28, y: 47}
+    - name: hexagonObjects_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 368
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 34.5}
+        - {x: -11.5, y: 34.5}
+        - {x: -37.5, y: 13.5}
+        - {x: -37.5, y: -30.5}
+        - {x: -30.5, y: -34.5}
+        - {x: 10.5, y: -34.5}
+        - {x: 21.5, y: -33.5}
+        - {x: 37.5, y: -17.5}
+        - {x: 37.5, y: 12.5}
+        - {x: 35.5, y: 22.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
