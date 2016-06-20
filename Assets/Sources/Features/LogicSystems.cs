@@ -19,9 +19,17 @@ public class InitializeGameSystem : IInitializeSystem, ISetPool
         playerEntity.AddView(UIContainer.Instance.PlayerGoldAmount);
 
         // Create a base money generator
-        _pool.CreateEntity()
-            .AddMoney(1)
+        var mainGenerator = _pool.CreateEntity()
+            .IsMainGenerator(true)
+            .AddMoney(10)
             .AddGenerator(60);
+
+        UIContainer.Instance.MainGenerator.gameObject.Link(mainGenerator, _pool);
+        mainGenerator.AddView(UIContainer.Instance.MainGenerator);
+
+        var cornerShop = _pool.CreateEntity()
+            .AddBuidling(BuildingType.CornerShop)
+            .AddCost(100);
     }
 
     public void SetPool(Pool pool)

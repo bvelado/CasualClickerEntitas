@@ -26,8 +26,13 @@ public class GameController : MonoBehaviour
             .Add(pool.CreateSystem<InitializeGameSystem>())
 
             // View
-            .Add(pool.CreateSystem<UpdateGoldAmountViewSystem>())
-            .Add(pool.CreateSystem<UpdateBuildingViewSystem>())
+            .Add(pool.CreateSystem<UpdatePlayerGoldAmountViewSystem>())
+            .Add(pool.CreateSystem<UpdatePlayerGoldRevenueViewSystem>())
+
+            .Add(pool.CreateSystem<UpdateBuildingCostViewSystem>())
+            .Add(pool.CreateSystem<UpdateBuildingRevenueViewSystem>())
+
+            .Add(pool.CreateSystem<UpdateMainGeneratorGoldRevenueSystem>())
 
             // Input
             .Add(pool.CreateSystem<HandleGenerateGoldInputSystem>())

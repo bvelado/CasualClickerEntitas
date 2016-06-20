@@ -1,12 +1,13 @@
 fileFormatVersion: 2
 guid: aa6d63a17bc92874f9b1470e6d70cf92
-timeCreated: 1464637787
+timeCreated: 1466171173
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: hexagonObjects_sheet_0
     21300002: hexagonObjects_sheet_1
     21300004: hexagonObjects_sheet_2
+    21300006: hexagonObjects_sheet_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -113,6 +114,24 @@ TextureImporter:
         - {x: 37.5, y: -17.5}
         - {x: 37.5, y: 12.5}
         - {x: 35.5, y: 22.5}
+    - name: hexagonObjects_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 233
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 27}
+        - {x: -22, y: 19}
+        - {x: -22, y: -27}
+        - {x: 4, y: -27}
+        - {x: 22, y: -7}
+        - {x: 22, y: 23}
+        - {x: 16, y: 27}
     outline: []
   spritePackingTag: 
   userData: 

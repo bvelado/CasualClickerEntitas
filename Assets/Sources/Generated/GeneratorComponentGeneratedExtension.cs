@@ -12,15 +12,17 @@ namespace Entitas {
 
         public bool hasGenerator { get { return HasComponent(ComponentIds.Generator); } }
 
-        public Entity AddGenerator(int newFrequency) {
+        public Entity AddGenerator(int newFrequency, int newRevenue) {
             var component = CreateComponent<GeneratorComponent>(ComponentIds.Generator);
             component.Frequency = newFrequency;
+            component.Revenue = newRevenue;
             return AddComponent(ComponentIds.Generator, component);
         }
 
-        public Entity ReplaceGenerator(int newFrequency) {
+        public Entity ReplaceGenerator(int newFrequency, int newRevenue) {
             var component = CreateComponent<GeneratorComponent>(ComponentIds.Generator);
             component.Frequency = newFrequency;
+            component.Revenue = newRevenue;
             ReplaceComponent(ComponentIds.Generator, component);
             return this;
         }

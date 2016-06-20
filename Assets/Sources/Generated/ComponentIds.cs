@@ -9,21 +9,25 @@
 public static class ComponentIds {
     public const int Buidling = 0;
     public const int BuyBuildingInput = 1;
-    public const int GenerateGoldInput = 2;
-    public const int Generator = 3;
-    public const int Money = 4;
-    public const int Player = 5;
-    public const int Tick = 6;
-    public const int View = 7;
-    public const int Wait = 8;
+    public const int Cost = 2;
+    public const int GenerateGoldInput = 3;
+    public const int Generator = 4;
+    public const int MainGenerator = 5;
+    public const int Money = 6;
+    public const int Player = 7;
+    public const int Tick = 8;
+    public const int View = 9;
+    public const int Wait = 10;
 
-    public const int TotalComponents = 9;
+    public const int TotalComponents = 11;
 
     public static readonly string[] componentNames = {
         "Buidling",
         "BuyBuildingInput",
+        "Cost",
         "GenerateGoldInput",
         "Generator",
+        "MainGenerator",
         "Money",
         "Player",
         "Tick",
@@ -34,8 +38,10 @@ public static class ComponentIds {
     public static readonly System.Type[] componentTypes = {
         typeof(BuidlingComponent),
         typeof(BuyBuildingInputComponent),
+        typeof(CostComponent),
         typeof(GenerateGoldInputComponent),
         typeof(GeneratorComponent),
+        typeof(MainGeneratorComponent),
         typeof(MoneyComponent),
         typeof(PlayerComponent),
         typeof(TickComponent),

@@ -69,16 +69,6 @@ public class HandleBuyBuildingInputSystem : IReactiveSystem, ISetPool
         foreach(var e in entities)
         {
             Debug.Log("Trying to buy a building for " + e.buyBuildingInput.Cost + " // Money : " + _pool.playerEntity.money.Amount );
-
-            if(_pool.playerEntity.money.Amount > e.buyBuildingInput.Cost)
-            {
-                _pool.CreateEntity()
-                    .AddBuidling(e.buidling.Type)
-                    .AddMoney(e.money.Amount)
-                    .AddGenerator(e.generator.Frequency);
-
-                _pool.playerEntity.ReplaceMoney(_pool.playerEntity.money.Amount - e.buyBuildingInput.Cost);
-            }
         }
     }
 

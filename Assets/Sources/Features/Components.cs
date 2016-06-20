@@ -7,7 +7,18 @@ public class PlayerComponent : IComponent
 
 }
 
+[SingleEntity]
+public class MainGeneratorComponent : IComponent
+{
+
+}
+
 public class MoneyComponent : IComponent
+{
+    public int Amount;
+}
+
+public class CostComponent : IComponent
 {
     public int Amount;
 }
@@ -20,9 +31,13 @@ public class BuidlingComponent : IComponent
 public class GeneratorComponent : IComponent
 {
     /// <summary>
-    /// Expressed by Amount every Frequency tick
+    /// Expressed in ticks
     /// </summary>
     public int Frequency;
+    /// <summary>
+    /// Expressed in money amount
+    /// </summary>
+    public int Revenue;
 }
 
 public class ViewComponent : IComponent

@@ -25,6 +25,9 @@ public class UIContainer : MonoBehaviour {
     public ViewController PlayerGoldAmount;
 
     [Header("Buildings")]
+    public ViewController MainGenerator;
+
+    [Space(8)]
     public ViewController CornerShop;
     public ViewController GasStation;
     public ViewController Factory;
